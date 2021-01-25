@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">projectChermyanin2</string>
+    <string name="btn_ok">OK</string>
+    <string name="text_page">Текст на странице</string>
+    <string-array name="language">
+        <item>Русский</item>
+        <item>English</item>
+    </string-array>
+</resources>
