@@ -6,4 +6,10 @@
         <item>Русский</item>
         <item>English</item>
     </string-array>
+
+    <string-array name="colour">
+        <item>Зеленый</item>
+        <item>Черный</item>
+        <item>Синий</item>
+    </string-array>
 </resources>
