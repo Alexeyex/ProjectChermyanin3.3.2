@@ -1,23 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="AppThemeGreen" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppThemeGreen" parent="Theme.AppCompat.DayNight">
         <item name="colorPrimary">@color/colorPrimaryGreen</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDarkGreen</item>
         <item name="android:textColor">@color/colorTextGreen</item>
         <item name="colorAccent">@color/colorAccentGreen</item>
     </style>
 
-    <style name="AppThemeBlue">
+    <style name="AppThemeBlue" parent="AppThemeGreen">
         <item name="colorPrimary">@color/colorPrimaryBlue</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDarkBlue</item>
         <item name="android:textColor">@color/colorTextBlue</item>
         <item name="colorAccent">@color/colorAccentBlue</item>
     </style>
 
-    <style name="AppThemeBlack">
+    <style name="AppThemeBlack" parent="AppThemeBlue">
         <item name="colorPrimary">@color/colorPrimaryBlack</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDarkBlack</item>
         <item name="android:textColor">@color/colorTextBlack</item>
         <item name="colorAccent">@color/colorAccentBlack</item>
+    </style>
+
+    <style name="Margin1">
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="Margin2">
+        <item name="android:layout_margin">3dp</item>
+    </style>
+
+    <style name="Margin3">
+        <item name="android:layout_margin">1dp</item>
     </style>
 </resources>
